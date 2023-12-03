@@ -10,6 +10,7 @@
     padding-right: 15px;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
     transition: 0.25ms;
+    display: block;
 }
 
 .google-search-bar:hover {
@@ -64,4 +65,13 @@
     background-color: white;
     object-fit: cover;
     object-position: right;
+}
+
+.text-1 {
+    display: block;
+}
+.bttn-1 {
+    margin-left: 5px;
+    margin-right: 5px;
+
 }
