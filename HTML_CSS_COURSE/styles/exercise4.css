@@ -1,0 +1,22 @@
+.prof-1 {
+    width: 500px;
+    object-fit: contain;
+    object-position: right;
+    margin-right: 10px;
+}
+
+.prof-2 {
+    width: 500px;
+    object-fit: contain;
+    object-position: right;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.prof-3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: right;
+}
