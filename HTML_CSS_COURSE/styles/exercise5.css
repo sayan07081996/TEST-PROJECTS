@@ -2,21 +2,14 @@
     margin-top: 2px;
     margin-bottom: 10px;
     width: 500px;
-    border: solid;
-    border-top-width: 1px;
-    border-top-color: lightgray;
-    border-bottom-width: 1px;
-    border-bottom-color: lightgray;
-    border-right-width: 1px;
-    border-right-color: lightgray;
-    border-left-width: 1px;
-    border-left-color: lightgray;
+    border: none;
     border-radius: 30px;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 15px;
     padding-right: 15px;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.25ms;
 }
 
 .google-search-bar:hover {
@@ -27,6 +20,10 @@
     padding-right: 16px;
     border-radius: 45px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.35);
+    transition: 0.25ms;
+}
+.google-search-bar:active {
+    transition: 0.25ms;
 }
 
 .search-icon {
