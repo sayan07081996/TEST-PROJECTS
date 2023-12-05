@@ -19,31 +19,95 @@
     transition: 1s;
 }
 
+
 .sayan-bose-img {
     width: 70px;
     border-radius: 50px;
+    display: inline-block;
 }
 
-.profile {
+.name {
     display: inline-block;
-    height: 100px;
+    width: 85px;
+    text-align: left;
+    vertical-align: bottom;
 }
-.profile-name {
-    display: inline-block;
-    vertical-align: top;
-    font-family: 'Roboto', sans-serif;
+
+.pro-name {
+    font-family: roboto;
     font-weight: bold;
-
+}
+.frnd {
+    font-weight: lighter;
+    font-size: 10px;
+    text-align: left;
+    color: lightslategrey;
+}
+.frnd:hover {
+    cursor: pointer;
 }
 
-.profilename {
-    display: inline-block;
-    height: 75px;
-    vertical-align: top;
+.Posts {
+    height: 100px;
+    width: 250px;
+    border: 1px;
+    border-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(119, 120, 121, 0.9);
+    margin-top: 5px;
 
 }
-.freinds {
+.txt-box1 {
     display: inline-block;
-    vertical-align: top;
+    margin-top: 2px;
+    border: None;
+    border-radius: 10px;
+    height: 26px;
+    width: 230px;
+    box-shadow: 0px 1px 5px rgba(119, 120, 121, 0.5);
+    transition: 1s;
+}
 
+.live-video {
+    margin-top: 38px;
+    margin-left: 2px;
+    border: none;
+    border-radius: 7px;
+    height: 30px;
+    background-color: white;
+    color: rgb(141, 136, 136);
+    font-size: 14px;
+    display: inline-block;
+}
+.live-video:hover {
+    opacity: 0.9;
+    background-color: rgb(243, 241, 241)
+    
+}
+.photo-video {
+    display: inline-block;
+    margin-left: none;
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+    color: rgb(141, 136, 136);
+    font-size: 14px;
+}
+.photo-video:hover {
+    opacity: 0.9;
+    background-color: rgb(243, 241, 241)
+}
+
+.live-event {
+    display: inline-block;
+    margin-left: none;
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+    color: rgb(141, 136, 136);
+    font-size: 14px;
+}
+.live-event:hover {
+    opacity: 0.9;
+    background-color: rgb(243, 241, 241)
 }
