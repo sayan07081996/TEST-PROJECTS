@@ -111,3 +111,13 @@
     opacity: 0.9;
     background-color: rgb(243, 241, 241)
 }
+
+.post-box {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.profile-grid {
+    display: grid;
+    grid: 100px 1fr;
+}
